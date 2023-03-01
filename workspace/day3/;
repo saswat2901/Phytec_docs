@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int x1,x2,y1,y2;
+		float dis;
+	 scanf("%d\n%d\n%d\n%d",&x1,&x2,&y1,&y2);
+	 printf("input x1:%d\n",x1);
+	  printf("input y1:%d\n",y1);
+	 printf("input x2:%d\n",x2);
+          printf("input y2:%d\n",y2);
+          dis=sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
+	  printf("distance between the said points:%f\n",dis);
+		  return 0;
+}
+
+	 
+
+
+
+
+
+

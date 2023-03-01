@@ -1,0 +1,20 @@
+!<arch>
+cos.c/          0           0     0     644     39        `
+int cose(int b,int h)
+{
+	return b/h;
+}
+
+sin.c/          0           0     0     644     39        `
+int sine(int p,int h)
+{
+	return p/h;
+}
+
+tan.c/          0           0     0     644     47        `
+int tane(int p,int b)
+{
+        return p/b;
+}
+
+
